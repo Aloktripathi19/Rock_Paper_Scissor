@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.main1 {
+    height: 90%;
+    width: 40%;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.main2 {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.main2 button {
+    height: 110px;
+    width: 120px;
+    color: yellow;
+    font-size: 70px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.main2 button:hover {
+    transform: scale(1.05);
+}
+
+.main3 {
+    height: 20%;
+    width: 80%;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.main3 span {
+    color: yellow;
+}
+
+.result {
+    height: 22%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 7%;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.main4 #min4 {
+    color: yellow;
+}
+
+.main4 #min5 {
+    color: red;
+}
+
+@media (max-width: 480px) {
+    .main1 {
+        width: 90%;
+        height: 80%;
+    }
+
+    .main2 button {
+        height: 70px;
+        width: 70px;
+        font-size: 50px;
+    }
+
+    .main3 {
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 5%;
+    }
+
+    .result {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .main4 {
+        margin-top: 10px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
