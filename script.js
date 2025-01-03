@@ -1,4 +1,4 @@
-let my = 0, cy = 0
+        let my = 0, cy = 0
         function fun(ch) {
             let game = ['ROCK', 'PAPER', 'SCISSOR']
             g = game[(Math.floor(Math.random() * game.length))]
